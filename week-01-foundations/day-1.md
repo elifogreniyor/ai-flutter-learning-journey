@@ -3,7 +3,7 @@
 
 ## 🔍 Konu Özeti
 
-- AI Agents, kullanıcıdan sadece komut değil, **hedef** alır. 
+- AI Agents, kullanıcıdan sadece komut değil, **hedef** alır. (AI agents take vague goals and figure out how to achieve them.)
 - Agent: “Uçak bileti + otel ayarla” gibi belirsiz bir hedefi gerçekleştirmek için araçlar seçer, plan yapar.
 - Workflow: Sabit adımlar izler.
 - Agent: Duruma göre araç seçer, adımları kendisi belirler (daha esnek ve akıllı).
@@ -15,13 +15,14 @@
 
 | Seviye | Rol        | Davranış Açıklaması                       |
 |--------|------------|-------------------------------------------|
-| L0     | Takipçi     | Sabit kuralları uygular                   |
+| L0     | Takipçi     | Sabit kuralları uygular                  |
 | L1     | Uygulayıcı  | Komutlara yanıt verir, planlama yapmaz   |
 | L2     | Aktör       | Araçları sadece istendiğinde kullanır    |
 | L3     | Operatör    | Kendi planını yapar, aksiyonları ayarlar |
 | L4     | Otonom      | Hedef koyar, adapte olur                 |
 | L5     | Yenilikçi   | Yepyeni çözümler üretir                  |
 
+*Most agents today live in L2–L3 territory. L4+ is where real autonomy starts.
 ---
 
 ## 🌍 Gerçek Hayat Kullanım Alanları
